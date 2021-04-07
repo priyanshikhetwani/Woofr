@@ -1,0 +1,165 @@
+#heading{
+	font-family: "Montserrat-Black";
+	font-size: 3.5rem;
+	line-height:1.5;
+}
+
+body{
+	font-family: "Montserrat";
+}
+
+/*.container{
+	padding-top: 15px;
+}*/
+
+
+
+#title{
+	background-color: #785d4c;
+	color: #fff;
+	padding-bottom: 100px;
+
+}
+
+/*Navigation bar*/
+#navbar{
+	padding: .5rem 1rem 4.5rem 0rem;
+}
+
+.navbar-brand{
+	font-family: "Ubuntu";
+	font-size: 2.5rem;
+	font-weight: bold;
+	padding-left: 0;
+}
+
+.nav-item{
+	padding: 0 18px;
+}
+
+.nav-link{
+	font-family: "Monserrat-light";
+	font-size: 1.2rem;
+}
+
+/*Download Buttons*/
+.download-btn{
+	margin: 5% 3% 5% 0;
+}
+
+ /*Title image*/
+ .title-image{
+ 	width: 50%;
+ 	transform: rotate(25deg);
+ 	position: absolute;
+ 	right: 25%;
+ }
+
+ /*Features*/
+ #features{
+ 	padding: 7% 15%;
+ 	background-color: #fff;
+ 	position: relative;
+ }
+
+ .feature-box{
+ 	text-align: center;
+ 	padding: 5%;
+  }
+
+  h3{
+  	font-family: "Montserrat-bold";
+  	font-weight: bold;
+  }
+
+  p{
+  	color: #8f8f8f;
+  }
+
+  .icon{
+  	color: #b54424;
+  	margin-bottom: 1rem;
+  }
+
+  .icon:hover{
+  	color: #785d4c;
+  }
+
+  /*Testimonials*/
+  #testimonials{
+  	text-align: center;
+  	background-color: #b54424;
+	color: #fff; 
+  }
+
+  .testimonial-image{
+  	border-radius: 50%;
+  	width: 10%;
+  	margin: 20px;
+  }
+
+  .testimonial-text{
+  	font-weight: 3rem;
+  	line-height: 1.5;
+  }
+
+  .carousel-item{
+  	padding: 7% 15%;
+  }
+
+  #press{
+  	background-color: #b54424;
+  	text-align: center;
+  	padding-bottom: 3%;
+  }
+
+  .press-logo{
+  	margin: 20px 20px 50px;
+  	width: 10%;
+  	
+  }
+
+ /* Pricing Section*/
+ #pricing{
+ 	padding: 100px;
+ 	text-align: center;
+ }
+
+ .pricing-column{
+ 	padding: 3% 2%;
+ }
+
+ @media (max-width: 1028px){
+ 	.title-image{
+ 		position: static;
+ 		transform: rotate(0);
+ 	}
+
+ 	#title{
+ 		text-align: center;
+ 	}
+ }
+
+ /*Call to Action */
+ #cta{
+ 	background-color: #785d4c;
+ 	text-align: center;
+ 	color: #fff;
+ 	padding: 7% 15%;
+ 	
+ }
+
+ #foot{
+ 	font-family: "Montserrat-Black";
+ 	font-size: 3.5rem;
+ 	line-height: 1.5;
+ }
+
+ #footer{
+ 	padding: 7% 15%;
+ 	text-align: center;
+ }
+
+ .social-icons{
+ 	20px 10px;
+ }
